@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Poynter Oldstyle Display CondSB';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-CondSB.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-CondSB.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-CondSB.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-CondSB.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-CondSB.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: auto;
+}

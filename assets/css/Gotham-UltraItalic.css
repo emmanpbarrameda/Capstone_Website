@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Gotham-UltraItalic';
+	src: url(../../assets/fonts/Gotham-UltraItalic.woff2) format('woff2'),
+	url(../../assets/fonts/Gotham-UltraItalic.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

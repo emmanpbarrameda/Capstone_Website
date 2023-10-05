@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Poynter Oldstyle Display';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-Roman.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Roman.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Roman.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Roman.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Roman.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: 'Poynter Oldstyle Display';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-Italic.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Italic.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Italic.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Italic.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Italic.ttf) format('truetype');
+	font-weight: normal;
+	font-style: italic;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: 'Poynter Oldstyle Display';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-Bold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Bold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Bold.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Bold.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: 'Poynter Oldstyle Display';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-BoldIt.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-BoldIt.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-BoldIt.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-BoldIt.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-BoldIt.ttf) format('truetype');
+	font-weight: bold;
+	font-style: italic;
+	font-display: auto;
+}

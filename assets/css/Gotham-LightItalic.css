@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Gotham-LightItalic';
+	src: url(../../assets/fonts/Gotham-LightItalic.woff2) format('woff2'),
+	url(../../assets/fonts/Gotham-LightItalic.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

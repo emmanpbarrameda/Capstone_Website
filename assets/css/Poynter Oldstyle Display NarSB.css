@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Poynter Oldstyle Display NarSB';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-NarSemiBd.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-NarSemiBd.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-NarSemiBd.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-NarSemiBd.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-NarSemiBd.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: auto;
+}

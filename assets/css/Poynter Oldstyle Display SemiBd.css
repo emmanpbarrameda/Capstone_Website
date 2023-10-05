@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Poynter Oldstyle Display SemiBd';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-SemiBold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBold.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBold.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBold.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: 'Poynter Oldstyle Display SemiBd';
+	src: url(../../assets/fonts/PoynterOldstyleDisplay-SemiBdIt.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBdIt.eot) format('embedded-opentype'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBdIt.woff2) format('woff2'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBdIt.woff) format('woff'),
+	url(../../assets/fonts/PoynterOldstyleDisplay-SemiBdIt.ttf) format('truetype');
+	font-weight: 600;
+	font-style: italic;
+	font-display: auto;
+}
