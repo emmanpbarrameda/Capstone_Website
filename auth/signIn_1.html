@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>MMC | Sign In</title>
+    <title>MMC | SignIn</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/logos/gmc emblem - png colored transparent-1.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
@@ -89,31 +89,36 @@
 </head>
 
 <body>
+    <!-- Start: Header Buttons -->
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="padding-bottom: 20px;padding-top: 20px;">
         <div class="container"><img src="../assets/img/logos/gmc%20emblem%20-%20png%20colored%20transparent-1.png" width="50px" height="50px" style="padding-right: 0px;margin-right: 10px;"><a class="navbar-brand logo" href="#" style="font-family: Gotham-Bold;font-size: 30px;"><strong>MMC</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
+
                     <li class="nav-item"><a class="nav-link" href="../index.html" style="font-family: Gotham-Book;">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="../index.html#about" style="font-family: Gotham-Book;">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../index.html#news" style="font-family: Gotham-Book;">NEWS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../index.html#gallery" style="font-family: Gotham-Book;">GALLERY</a></li>
                     <li class="nav-item"><a class="nav-link" href="../index.html#services" style="font-family: Gotham-Book;">SerVICES</a></li>
                     <li class="nav-item"><a class="nav-link" href="../index.html#give" style="font-family: Gotham-Book;">GIVE</a></li>
                     <li class="nav-item"><a class="nav-link" href="signIn_1.html" style="font-family: Gotham-Book;">SIGN IN</a></li>
+
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav><!-- End: Header Buttons -->
     <main class="page contact-us-page">
+        <!-- Start: Login -->
         <div class="d-flex flex-column justify-content-center" id="login-box" style="padding-right: 20px;padding-left: 20px;margin-bottom: 20px;margin-top: 30px;">
             <div class="login-box-header"><i class="fas fa-user-lock" style="font-size: 50px;color: #006db6;padding-bottom: 20px;padding-top: 20px;"></i>
                 <h4 style="color: rgb(139,139,139);margin-bottom: 0px;font-weight: 400;font-size: 27px;">Sign In</h4>
-            </div>
-            <div class="email-login" style="background-color: #ffffff;padding-bottom: 0px;"><input type="email" class="email-imput form-control" style="margin-top: 10px;" required="" placeholder="Email" minlength="6">
-                <p class="email_status" style="font-size: 12px;padding-left: 10px;margin-bottom: 0px;padding-top: 5px;"></p>
-            </div>
-            <div class="email-login" style="background-color: #ffffff;padding-bottom: 10px;"><input type="password" class="password-input form-control" style="margin-top:10px;" required="" placeholder="Password" minlength="6">
-                <p class="password_status" style="font-size: 12px;padding-left: 10px;margin-bottom: 0px;padding-top: 5px;"></p>
-            </div>
+            </div><!-- Start: email -->
+            <div class="email-login" style="background-color: #ffffff;padding-bottom: 0px;"><input type="email" class="email-imput form-control" style="margin-top: 10px;" required="" placeholder="Email" minlength="6"><!-- Start: status -->
+                <p class="email_status" style="font-size: 12px;padding-left: 10px;margin-bottom: 0px;padding-top: 5px;"></p><!-- End: status -->
+            </div><!-- End: email -->
+            <!-- Start: password -->
+            <div class="email-login" style="background-color: #ffffff;padding-bottom: 10px;"><input type="password" class="password-input form-control" style="margin-top:10px;" required="" placeholder="Password" minlength="6"><!-- Start: status -->
+                <p class="password_status" style="font-size: 12px;padding-left: 10px;margin-bottom: 0px;padding-top: 5px;"></p><!-- End: status -->
+            </div><!-- End: password -->
             <div class="submit-row" style="margin-bottom:8px;padding-top:0px;"><a class="btn btn-success d-block d-lg-flex justify-content-lg-center align-items-lg-center box-shadow w-100" role="button" id="submit-id-submit" href="../admin_dashboard/dashboard_index.html" style="background: #006db6;margin-top: 8px;">Sign In</a>
                 <div class="d-flex justify-content-between">
                     <div class="form-check form-check-inline" id="form-check-rememberMe"><input class="form-check-input" type="checkbox" id="formCheck-1" for="remember" style="cursor:pointer;" name="check"><label class="form-check-label" for="formCheck-1"><span class="label-text">Remember Me</span></label></div><a id="forgot-password-link" href="resetPassword_1.html">Forgot Password?</a>
@@ -122,7 +127,7 @@
             <div id="login-box-footer" style="padding:10px 20px;padding-bottom:23px;padding-top:18px;">
                 <p style="margin-bottom:0px;">Don't you have an account?<a id="register-link" href="signUp_1.html">Sign Up!</a></p>
             </div>
-        </div>
+        </div><!-- End: Login -->
     </main>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/js/bs-init.js"></script>
